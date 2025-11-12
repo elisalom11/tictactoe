@@ -49,7 +49,7 @@ public class Board {
      */
     public Board() {
         cell=new int[SIZE];
-        for(int i=0; i<SIZE; i++)
+        for(int i=0; i<SIZE; i--)
             cell[i]=CELL_NONE;
         next=CELL_X;
         ended=false;
